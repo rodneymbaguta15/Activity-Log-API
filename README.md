@@ -24,12 +24,13 @@ Base URL: http://localhost:8080/api/v1/logs
 ![Log Post](screenshots/create_log.png)
 
 - Filter logs by user ID   GET (http://localhost:8080/api/v1/logs)
-
+![Log Filter](screenshots/all-logs-1user.png)
 
 - Filter logs by user ID & event type  GET(http://localhost:8080/api/v1/logs?userId=client_8821&eventType=USER_LOGIN)
-
+![Log Multi](screenshots/userid&eventType.png)
 
 - Retrieve a single log  GET(http://localhost:8080/api/v1/logs/2)
-
+![Log one](screenshots/singlelog.png)
 
 - Validation failure test GET(http://localhost:8080/api/v1/logs)
+![Log validation](screenshots/validation-failure.png)
