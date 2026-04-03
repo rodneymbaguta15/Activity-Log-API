@@ -21,7 +21,7 @@ The project is designed as a clean, self-contained backend service with structur
 Base URL: http://localhost:8080/api/v1/logs
 
 - Record an activity event POST(http://localhost:8080/api/v1/logs)
-
+![Log Post](screenshots/create_log.png)
 
 - Filter logs by user ID   GET (http://localhost:8080/api/v1/logs)
 
